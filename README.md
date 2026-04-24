@@ -4,7 +4,7 @@
 This repository contains a minimal MSW (Mock Service Worker) test for the Domino's Olo Mobile Application. The test verifies that the "Add" button appears on the `MenuCard` component when both the `showAddButton` prop and the `ProductCardAddToOrder` feature toggle are enabled.
 
 ## Test Details
-- **Test File:** `packages/native/components/menu/__tests__/menu-card-add-button.spec.tsx` (from the Domino's olo.mobile repo)
+- **Test File:** `olo.mobile/packages/native/components/menu/__tests__/menu-card-add-button.spec.tsx`
 - **Purpose:**
   - Mocks feature toggles and pricing selectors to isolate the test scenario.
   - Uses MSW to intercept API requests (e.g., `/api/products`).
